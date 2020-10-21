@@ -1,0 +1,353 @@
+* {
+	margin: 0;
+	padding: 0;
+}
+
+.clear {
+	clear: both;
+}
+
+.fondVert {
+	background-color: #18bd9b; 
+}
+
+.trait {
+	width: 320px;
+	height: 2px;
+	margin: 22px auto 26px auto; 
+}
+
+.titre {
+	text-align: center;
+	text-transform: uppercase;
+	font-size: 35px
+}
+
+body{
+	font-family: sans-serif;
+}
+
+
+header {
+	width: 100%;
+	background-color: #2d3e50;
+	text-transform: uppercase;
+	position: fixed;
+	top: 0;
+	left: 0;
+	
+}
+
+header img {
+	display: none;
+}
+
+header h1 {
+	color: #ffffff;
+	float: left;
+	padding: 15px; 
+	
+}
+
+header nav {
+	float: right;
+	display: flex;
+}
+
+header nav a {
+	color: #ffffff;
+	text-decoration: none;
+	padding: 25px 20px;
+}
+
+header nav a:hover {
+	color: #2d3e50;
+	background-color: #ffffff;
+	transition: 0.5s;
+}
+
+#profil {
+	width: 100%;
+	color: #ffffff;
+	text-align: center;
+	padding: 113px 0 170px 0;
+}
+
+#profil img {
+	margin: auto;
+	display: block;
+}
+
+#profil h2 {
+	font-size: 60px;
+	margin-top: 70px; 
+}
+
+#profil .trait {
+	background-color: #ffffff; 
+}
+
+#profil h3 {
+	font-size: 25px;
+	letter-spacing: 4px;
+}
+
+#portfolio {
+	width: 100%;
+	padding: 100px 0 113px 0;
+}
+
+#portfolio .titre {
+	color: #2d3e50; 
+}
+
+#portfolio .trait {
+	background-color: #2d3e50; 
+}
+
+#portfolio .ligne {
+	width: 100%;
+	display: flex;
+}
+
+#portfolio .ligne div {
+	width: 33.33%;
+	padding: 21px 63px; 
+}
+
+#portfolio .ligne div img {
+	width: 100%; 
+}
+
+#apropos {
+	width: 100%;
+	padding: 100px 0 120px 0;
+}
+
+#apropos .titre {
+	color: #ffffff;
+}
+
+#apropos .trait {
+	background-color: #ffffff; 
+}
+
+#apropos .ligne {
+	width: 100%;
+	display: flex;
+}
+
+#apropos .ligne div {
+	width: 50%;
+	color: #ffffff; 
+	padding: 0 13%;
+	text-align: justify;
+}
+
+#apropos .ligne div h3 {
+	text-align: center;
+	color: #2d3e50; 
+	margin-bottom: 20px; 
+}
+
+#apropos a {
+	border: 1px solid #ffffff;
+	color: #ffffff;
+	text-decoration: none; 
+	width: 182px; 
+	display: block;
+	text-align: center;
+	padding: 20px 0;
+	margin: 52px auto 0 auto; 
+}
+
+#apropos a:hover {
+	color: #18bd9b;
+	border-color: #ffffff;
+	transition: 0.5s; 
+}
+
+#contact {
+	width: 100%;
+	padding: 100px 0 90px 0;
+}
+
+#contact h2 {
+	color: #2d3e50;
+}
+
+#contact .trait {
+	background-color: #2d3e50;
+}
+
+#contact form {
+	width: 50%; 
+	margin: auto;
+}
+
+#contact form label {
+	width: 100%;
+	color: #2d3e50;
+}
+
+#contact form input[type=text], #contact form input[type=tel], #contact form input[type=email] {
+	width: 100%; 
+	height: 32px;
+	border-radius: 8px;
+	border: 1px dashed #2d3e50;
+	margin: 24px 0 26px 0; 
+}
+
+#contact form textarea {
+	width: 100%;
+	height: 120px; 
+	border-radius: 8px;
+	border: 1px dashed #2d3e50;
+	margin: 24px 0 26px 0; 
+	resize: none;
+}
+
+#contact form input[type=submit] {
+	width: 125px;
+	background-color: #18bd9b;
+	color: #ffffff;
+	font-size: 16px;
+	border: 1px solid #18bd9b;
+	box-sizing: border-box;
+	border-radius: 8px;
+	padding: 23px 0;
+	margin: auto;
+	display: block;
+
+}
+
+#contact form input[type=submit]:hover {
+	color: #18bd9b;
+	background-color: #ffffff;
+	cursor: pointer;
+	transition: 0.5s;
+}
+
+
+footer {
+	width:100%;
+	font-size: 14px;
+}
+
+#info {
+	width: 100%;
+	display: flex;
+	background-color: #2d3e50;
+	color: #ffffff;
+	text-align: center;
+	padding: 55px 0 30px 0;
+}
+
+#info div {
+	width: 50%;
+}
+
+footer h2 {
+	font-size: 18px;
+}
+
+footer a {
+	color: #ffffff; 
+	font-size: 30px;
+	margin: 5px;
+}
+
+footer a:hover {
+	color: #18bd9b;
+	transition: 0.5s;
+}
+
+#copyright {
+	width: 100%;
+	background-color: #1b252f;
+	color: #ffffff;
+	text-align: center;
+	padding: 25px 0;
+}
+
+@media screen and (max-width: 665px) {
+	
+	.trait {
+		width: 80px,
+	}
+	
+	header h1 {
+		padding: 10px;
+	}
+
+	header img {
+		float: right;
+		width: 35px;
+		padding: 10px;
+		display: block;
+	}
+
+
+	header nav {
+		float: none;
+		display: none;
+	}
+
+	header nav a {
+		padding: 30px 20px;
+		width: 100%;
+		box-sizing: border-box;
+		text-align: center;
+		display: block;
+	}
+
+	#profil {
+		padding: 113px 0 110px 0;
+
+	}
+
+	#profil h2 {
+		font-size: 40px;
+		margin-top: 50px;
+	}
+
+	#profil h3 {
+		font-size: 20px; 
+	}
+
+	#portfolio .ligne {
+		display: block;
+	}
+
+	#portfolio .ligne div {
+		width: 100px;
+		padding: 21px 35px;
+		box-sizing: border-box;
+	}
+
+	#apropos .ligne {
+		display: block;
+	}
+
+	#apropos .ligne div {
+		width: 100%;
+		box-sizing: border-box;
+		margin-bottom: 20px;
+	}
+
+	#contact form {
+		width: 80%; 
+	}
+
+	#info {
+		display: block;
+	}
+
+	#info div {
+		width: 100%;
+		margin-bottom: 15px;
+	}
+
+
+
+}
